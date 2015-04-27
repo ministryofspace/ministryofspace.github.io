@@ -19971,11 +19971,11 @@ dl dt, dl dd {
 }
 
 code {
-  font-family: "DIN Next Slab Light", "Roboto-Slab", Georgia, Times, serif;
+  font-family: "Roboto Slab", Georgia, Times, serif;
 }
 
 .serif {
-  font-family: "DIN Next Slab Light", "Roboto-Slab", Georgia, Times, serif;
+  font-family: "Roboto Slab", Georgia, Times, serif;
 }
 
 .t-spaced {
@@ -20092,6 +20092,14 @@ code {
   width: 1rem;
 }
 
+.column-collapse .columns {
+  padding: 0;
+}
+
+.collapse.columns {
+  padding: 0;
+}
+
 .padd-up-1 {
   padding-top: 1.25rem;
 }
@@ -20140,12 +20148,25 @@ code {
   transform: translateY(-50%);
 }
 
+.p-relative {
+  position: relative;
+}
+
+@media only screen and (min-width: 64.063em) {
+  .p-absolute-down {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
 .hero {
-  padding: 100% 0 0 0;
+  padding: 25% 0 0 0;
 }
 @media only screen and (min-width: 40.063em) {
   .hero {
-    padding: 65% 0 0 0;
+    padding: 35% 0 0 0;
   }
 }
 @media only screen and (min-width: 64.063em) {
@@ -20237,6 +20258,31 @@ figure {
   margin-top: 1rem;
 }
 
+.block-photo {
+  position: relative;
+}
+.block-photo-figure {
+  position: relative;
+}
+.block-photo-figure figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.block-type {
+  position: relative;
+}
+.block-type-header {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
 .slat {
   padding: 3rem 0;
 }
@@ -20281,6 +20327,14 @@ figure {
     padding: 4rem 1rem;
   }
 }
+@media only screen and (min-width: 64.063em) {
+  .hero-offset.o-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
 .hero h1, .hero h2, .hero h3, .hero h4, .hero h5, .hero h6, .hero p {
   color: #fff;
 }
@@ -20320,4 +20374,10 @@ figure {
 }
 .block-footer {
   margin-top: 1rem;
+}
+
+@media only screen and (min-width: 64.063em) {
+  .home-grid .clear-large {
+    clear: left;
+  }
 }
