@@ -28,3 +28,10 @@ function parallax(){
     plxBackground.css('top', - (plxWindowTopToWindowTop * plxSpeed) + 'px');
   }
 }
+
+$(function() {
+  $('.items-container').each(function() {
+    $(this).children('.item').matchHeight({
+    });
+  });
+});

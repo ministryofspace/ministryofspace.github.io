@@ -66,9 +66,10 @@
   </header>
 </section>
 
-<section class="content">
-  <div class="main home-grid clearfix column-collapse">
-    <div class="small-12 medium-12 large-8 columns">
+<section class="content clearfix">
+
+  <div class="main home-grid clearfix column-collapse items-container">
+    <div class="small-12 medium-12 large-8 columns item">
       <article class="block">
         <header>
         <h2 class="t-caps">Become a Member</h2></header>
@@ -80,7 +81,7 @@
       </article>
     </div>
 
-    <div class="bg-darken small-12 medium-6 large-4 columns">
+    <div class="bg-darken small-12 medium-6 large-4 columns item">
       <figure>
         <img data-interchange="[http://placehold.it/420x250, (default)], [http://placehold.it/960x540, (medium)]">
       </figure>
@@ -92,7 +93,8 @@
       </article>
     </div>
 
-    <div class="block-photo small-12 medium-6 large-4 columns">
+
+    <div class="block-photo small-12 medium-6 large-4 columns item">
       <figure class="block-photo-figure">
         <img data-interchange="[http://placehold.it/420x250, (default)], [http://placehold.it/720x360, (medium)]">
         <figcaption class="block"><h3>Exhibitons</h3></figcaption>
@@ -109,7 +111,7 @@
       </article>
     </div>
 
-    <div class="block-photo small-12 medium-6 large-4 columns">
+    <div class="block-photo small-12 medium-6 large-4 columns clear-medium item">
       <figure class="block-photo-figure hide-for-medium-up">
         <img data-interchange="[http://placehold.it/420x250, (default)], [http://placehold.it/720x360, (medium)]">
         <figcaption class="block"><h3>Museum</h3></figcaption>
@@ -131,7 +133,7 @@
       </figure>
     </div>
 
-    <div class="block-photo small-12 medium-6 large-4 columns">
+    <div class="block-photo small-12 medium-6 large-4 columns item">
       <figure class="block-photo-figure">
         <img data-interchange="[http://placehold.it/420x250, (default)], [http://placehold.it/720x360, (medium)]">
         <figcaption class="block"><h3>News</h3></figcaption>
@@ -147,8 +149,10 @@
           </header>
       </article>
     </div>
+  </div>
 
-    <div class="block-photo small-12 medium-12 large-8 columns">
+  <div class="secondary home-grid clearfix column-collapse end items-container">
+    <div class="block-photo small-12 medium-12 large-8 columns item">
       <article class="block-type">
         <figure class="block-photo-figure">
           <img data-interchange="[http://placehold.it/420x250, (default)], [http://placehold.it/1260x400, (medium)]">
@@ -161,7 +165,7 @@
       </article>
     </div>
 
-    <div class="small-12 medium-6 large-4 columns">
+    <div class="small-12 medium-6 large-4 columns item">
       <article class="block">
         <figure>
           <img data-interchange="[http://placehold.it/420x250, (default)], [http://placehold.it/960x240, (medium)]">
@@ -174,7 +178,7 @@
       </article>
     </div>
 
-    <div class="block-photo small-12 medium-6 large-4 columns clear-large">
+    <div class="block-photo small-12 medium-6 large-4 columns clear-large item">
       <article class="block-type">
         <figure>
           <img data-interchange="[http://placehold.it/420x250, (default)], [http://placehold.it/960x540, (medium)]">
@@ -187,7 +191,7 @@
       </article>
     </div>
 
-    <div class="small-12 medium-6 large-4 columns">
+    <div class="small-12 medium-6 large-4 columns clear-medium item">
       <article class="block">
         <header>
         <h3>Learn More</h3>
@@ -197,7 +201,7 @@
       </article>
     </div>
 
-    <div class="block-photo small-12 medium-6 large-4 columns">
+    <div class="block-photo small-12 medium-6 large-4 columns item">
       <article class="block-type">
         <figure>
           <img data-interchange="[http://placehold.it/420x250, (default)], [http://placehold.it/960x540, (medium)]">
@@ -211,9 +215,6 @@
     </div>
   </div>
 
-  <div class="secondary">
-    
-  </div>
 </section>
 
 <footer class="p-relative bg-darken clearfix">
@@ -255,9 +256,14 @@
 
   		<script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="assets/js/foundation.min.js"></script>
+<script src="bower_components/matchHeight/jquery.matchHeight-min.js"></script>
+<script src="assets/js/app.min.js"></script>
+
 <script>
 $(document).foundation();
 </script>
+
+<script src="bower_components/matchHeight/jquery.matchHeight.js" type="text/javascript"></script>
 
 
       </div>

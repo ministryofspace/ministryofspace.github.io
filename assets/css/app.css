@@ -20140,12 +20140,14 @@ code {
   padding-top: 6.25rem;
 }
 
-.hero-offset.center {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+@media only screen and (min-width: 40.063em) {
+  .hero-offset.center {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 }
 
 .p-relative {
@@ -20378,6 +20380,11 @@ figure {
 
 @media only screen and (min-width: 64.063em) {
   .home-grid .clear-large {
+    clear: left;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .home-grid .clear-medium {
     clear: left;
   }
 }
