@@ -7440,6 +7440,10 @@ figure {
   .block-footer {
     margin-top: 1.25rem; }
 
+@media only screen and (max-width: 40em) {
+  .small-full {
+    width: 100%; } }
+
 /* desert scheme ported from vim to google prettify */
 /* line 2, /Users/bucky/Sites/ministryofspace/patterns/assets/scss/helpers/_pretty.scss */
 xmp.prettyprint, pre.prettyprint {
